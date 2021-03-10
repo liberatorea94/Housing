@@ -1,0 +1,31 @@
+Plan on taking on the project with the following basic strategy.
+
+Cleaning:
+- Begin cleaning the data, looking for any rows with missing values (Null/NaN)
+- Look for any values which may not be "realistic"(Check outliers)
+- See which features appear very few times, and decide what to do (Categorical)
+- Normalize numerical values for future use with models (No time variables)
+- Make sure different features aren't counted twice (Mispelling, capitalization, etc.)
+- Remove duplicates from the dataset
+
+Exploratory Data Analysis:
+- Check correlation between independent variables (Correlation matrix)
+- Create plots of price vs. categorical features (Bar graphs)
+- Plots of price vs. numerical features (Scatterplot)
+- Box and whisker plot of price
+- Whichever other types of plots come to use
+- Calculating new variables from old (If applicable)
+- Use of pivot tables, new to me in Python
+
+Model Building:
+Should be good to jump right in. The performance of our models will be found using Mean Squared Error (MSE).
+Will use a 80/20 training/testing split.
+Will need feature selection for the models as well. Will be a new concept, other than for MLR.
+Will provide a table with performance of each in the end.
+This is a regression problem, so we will use the following algorithms.
+- Multiple Linear Regression (Least squares)
+- Lasso Regression
+- k-Nearest Neighbors
+- Support Vector Machine
+- Decision Tree
+- Random Forest
